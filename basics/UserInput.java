@@ -2,5 +2,28 @@ package basics;
 import java.util.Scanner;
 
 public class UserInput {
-    Scanner sc = new Scanner(System.in);
+    public void InputTest() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a number: ");
+        String num_string = sc.nextLine();
+        System.out.println(num_string);
+        int num = 0;
+        try {
+            num = Integer.parseInt(num_string);
+        } catch (NumberFormatException e) {
+            num = -1;
+            System.out.println("Invalid number");
+        }
+        System.out.println(num);
+
+        System.out.println("Enter another number_ ");
+        int other_num = sc.nextInt();
+        System.out.println(num+other_num);
+
+        System.out.println("current price of pringles(tm)?");
+        double pringle = sc.nextDouble();
+        System.out.println("prignle" + (pringle + (double) num));
+        sc.close();
+    }
 }
