@@ -29,5 +29,8 @@ public class Variables {
         //others: Boolean, Short, Character, Long, Float, Double
         UserInput u = new UserInput();
         u.InputTest();
+        RandomNumbers r = new RandomNumbers();
+        r.randomExample();
+        Arithmetics.arithmet_example();
     }
 }
