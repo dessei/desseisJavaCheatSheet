@@ -1,7 +1,6 @@
 package basics;
 
 public class Variables {
-    @SuppressWarnings("unused")
     public static void main(String[] args) {
         System.out.println("Hello");
         System.out.print("World \n");
