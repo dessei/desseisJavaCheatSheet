@@ -9,12 +9,42 @@ public class ControlFlow {
             System.out.println("otherwise");
         }
 
+        //Enhanced switch
+        int games_won = 2;
+        String s = switch (games_won) {
+            case 0 -> "3 wins to go";
+            case 1 -> "2 wins to go";
+            case 2 -> "1 win to go";
+            case 3 -> "you won the best of 5";
+            default -> "Well that's just unreasonable";
+        };
+        System.out.println(s);
+
+        //switch
+        switch (games_won) {
+            case 0:
+                s = "3 wins to go";
+                break;
+            case 1:
+                s = "2 wins to go";
+                break;
+            case 2:
+                s = "1 win to go";
+                break;
+            case 3:
+                s = "you won the best of 5";
+                break;
+            default:
+                s = "Well that's just unreasonable";
+                break;
+        }
+        System.out.println(s);
+
         //ternary operator
         // variable = (condition) ? ifTrue : ifFalse;
         int groesse = 173;
         boolean grossGenugFürDieAchterbahn = (groesse > 140) ? true: false;
         System.out.println(grossGenugFürDieAchterbahn);
-
 
         //loops
         //for loop

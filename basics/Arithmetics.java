@@ -13,6 +13,10 @@ public class Arithmetics {
         x++;
         y--;
 
+        //logical operators
+        boolean tst = true && false;
+        tst = true || false;
+        tst = !true;
         //Constants
         double xx = Math.PI;
         xx = Math.E;

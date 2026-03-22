@@ -1,7 +1,5 @@
 package basics;
 
-import java.util.ResourceBundle.Control;
-
 public class Variables {
     public static void main(String[] args) {
         System.out.println("Hello");
