@@ -49,5 +49,10 @@ public class ControlFlow {
         //loops
         //for loop
         //while loop
+        int i = 0;
+        while(i < 10) {
+            System.out.println("lol");
+            i++;
+        }
     }
 }
