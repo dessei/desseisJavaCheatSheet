@@ -48,6 +48,10 @@ public class ControlFlow {
 
         //loops
         //for loop
+        for(int counter = 0; counter < 100; counter++) {
+            groesse-=1;
+        }
+        System.out.println(groesse);
         //while loop
         int i = 0;
         while(i < 10) {
@@ -55,7 +59,7 @@ public class ControlFlow {
             i++;
         }
         //oder
-        i = 0;
+        i = 6;
         do{
             System.out.println("lal" + i);
             i++;
