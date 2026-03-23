@@ -51,8 +51,14 @@ public class ControlFlow {
         //while loop
         int i = 0;
         while(i < 10) {
-            System.out.println("lol");
+            System.out.println("lol" + i);
             i++;
         }
+        //oder
+        i = 0;
+        do{
+            System.out.println("lal" + i);
+            i++;
+        } while(i < 5);
     }
 }
