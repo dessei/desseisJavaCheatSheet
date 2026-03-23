@@ -64,5 +64,17 @@ public class ControlFlow {
             System.out.println("lal" + i);
             i++;
         } while(i < 5);
+
+
+        //break & continue
+        for(i = 0; i < 5; i++) {
+            if(i == 2) {
+                continue;
+            }
+            if(i == 4) {
+                break;
+            }
+            System.out.println(i);
+        }
     }
 }
