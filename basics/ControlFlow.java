@@ -76,5 +76,11 @@ public class ControlFlow {
             }
             System.out.println(i);
         }
+
+        //for each
+        String[] drinks = {"coke", "pepsi", "water", "dr. pfeffer", "Joe"};
+        for(String drink : drinks) {
+            System.out.println(drink);
+        }
     }
 }

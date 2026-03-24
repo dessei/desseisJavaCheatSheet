@@ -24,6 +24,15 @@ public class UserInput {
         System.out.println("current price of pringles(tm)?");
         double pringle = sc.nextDouble();
         System.out.println("prignle" + (pringle + (double) num));
+
+        double[] doublees = new double[2];
+        for(int i = 0; i < doublees.length; i++) {
+            System.out.print("Enter a number: ");
+            doublees[i] = sc.nextDouble();
+            System.out.print("\n");
+        }
+
+
         sc.close();
     }
 }

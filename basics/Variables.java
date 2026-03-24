@@ -32,5 +32,6 @@ public class Variables {
         r.randomExample();
         Arithmetics.arithmet_example();
         ControlFlow.FlowingControl();
+        arrays.array_example();
     }
 }

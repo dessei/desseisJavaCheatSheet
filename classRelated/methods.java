@@ -6,6 +6,7 @@ public class methods {
         hello(times);
         String s = hello(times, true);
         System.out.print(s);
+        varArgs.varargs_example();
     }
 
     static void hello(int times) {
