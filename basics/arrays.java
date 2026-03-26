@@ -1,6 +1,7 @@
 package basics;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class arrays {
     public static void array_example() {
@@ -17,5 +18,11 @@ public class arrays {
 
         //2D arrays
         int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+
+        //of objects
+        Random[] randoms = new Random[4];
+        Random r = new Random();
+        Random r2 = new Random();
+        Random[] randoms2 =  {r, r2};
     }
 }

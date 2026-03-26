@@ -7,6 +7,17 @@ public class methods {
         String s = hello(times, true);
         System.out.print(s);
         varArgs.varargs_example();
+
+        //static test
+        Static s1 = new Static(5);
+        Static s2 = new Static(3);
+        System.out.println(Static.instances);
+        s1.print_num();
+        Static.print_some_num();
+        Inheritance.print_some_num();
+        System.out.println(Inheritance.instances);
+        Inheritance i = new Inheritance(3, 4);
+        System.out.println(i.toString());
     }
 
     static void hello(int times) {
