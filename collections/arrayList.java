@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class arrayList {
     public static void main(String[] args) {
@@ -10,5 +11,8 @@ public class arrayList {
         list.add(4);
         list.add(2992);
     
+        //feature of all COllections
+        Collections.sort(list);
+
     }
 }
