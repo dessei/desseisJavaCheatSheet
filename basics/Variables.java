@@ -26,6 +26,14 @@ public class Variables {
         //object wrapped primitives
         Integer i = 5;
         //others: Boolean, Short, Character, Long, Float, Double
+
+
+        //parsing from Strings
+        int a = Integer.parseInt("67");
+        double bd = Double.parseDouble("3.567");
+        char mychar = "kek".charAt(2);
+
+
         UserInput u = new UserInput();
         u.InputTest();
         RandomNumbers r = new RandomNumbers();
